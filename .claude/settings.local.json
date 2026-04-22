@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm --version)",
+      "Bash(php -r \"new PDO\\('sqlite:/tmp/test.db'\\); echo 'SQLite OK';\")",
+      "Bash(php database/init.php)",
+      "Bash(curl -s http://localhost:8000/api/settings.php)"
+    ]
+  }
+}

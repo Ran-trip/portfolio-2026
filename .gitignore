@@ -1,0 +1,26 @@
+# Dépendances
+frontend/node_modules/
+
+# Build
+frontend/dist/
+
+# Base de données
+backend/database/portfolio.db
+backend/database/portfolio.db-shm
+backend/database/portfolio.db-wal
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environnement
+.env
+.env.local
+backend/.env.php
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
